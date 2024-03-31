@@ -86,3 +86,16 @@
     font-feature-settings: "rlig" 1, "calt" 1;
   }
 }
+@media (min-width: 1400px){
+.container {
+     max-width: 100%
+}
+}
+@media (max-width: 768px){
+.md\:hidden {
+    display: hidden;
+}}
+@media (max-width: 768px){
+.md\:flex {
+    display: flex;
+}}
