@@ -108,7 +108,7 @@ export default function RootLayout({ children, params }: RootLayoutProps) {
         >
           <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
             <ShadcnThemeProvider>
-              <ThemeArrows params={params}>
+           
                 <div className="flex min-h-screen flex-col">
                   <SiteHeader />
                   <div className="flex-1">
@@ -125,7 +125,7 @@ export default function RootLayout({ children, params }: RootLayoutProps) {
                   <Footer />
                 </div>
                 <Toaster />
-              </ThemeArrows>
+         
               <TailwindIndicator />
             </ShadcnThemeProvider>
           </ThemeProvider>
